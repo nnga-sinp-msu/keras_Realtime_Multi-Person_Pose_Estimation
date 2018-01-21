@@ -16,7 +16,7 @@ Could be run as iterator inside **train_pose.py** (default), or as **./rmpe_serv
 - re-generate val_dataset.h5 with new version of generate_hdf5.py (will be backward compatible, just one attribute 'meta' added)
 - since augmentation is very fast now, by default it works inside train_pose.py (separate thread)  
 - if you want to run external augmentation server run ./rmpe_server.py and change use_client_gen = True in train_pose.py    
-- test result with **inspect_dataset.ipynb** or **rmpe_server_tester.py raw save** (saves all images, heatmaps and PAFs to disk)  
+- test result with **inspect_dataset.ipynb** or **rmpe_server_tester.py raw save** (saves all images, heatmaps and PAFs to disk). Make sure to initialize the server **python rmpe_server.py**
 - look to the code and give feedback
 - try to train
 

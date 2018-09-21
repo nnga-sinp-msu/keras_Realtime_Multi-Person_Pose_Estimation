@@ -2,8 +2,8 @@ from model import get_testing_model
 import numpy as np
 import os
 
-CAFFE_LAYERS_DIR = "model/caffe/layers"
-KERAS_MODEL_FILE = "model/keras/model.h5"
+CAFFE_LAYERS_DIR = "caffe/layers"
+KERAS_MODEL_FILE = "keras/model.h5"
 
 m = get_testing_model()
 
